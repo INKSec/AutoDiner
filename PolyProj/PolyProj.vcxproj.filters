@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{cbc45c2e-940e-4a1b-9465-f350c9425183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{6c6e6b54-bfa1-421e-a070-d6bfd35ed184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dishes">
+      <UniqueIdentifier>{e6c5edfc-2853-4db8-be03-22e4d0962375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dishes">
+      <UniqueIdentifier>{d5ebe471-3e75-4781-b86b-6056e1222dbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PolyProj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dish_Factory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Burger_Abstract.cpp">
+      <Filter>Source Files\Dishes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza_Abstract.cpp">
+      <Filter>Source Files\Dishes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza_Funghi.cpp">
+      <Filter>Source Files\Dishes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza_Salami.cpp">
+      <Filter>Source Files\Dishes</Filter>
+    </ClCompile>
+    <ClCompile Include="Dishes_Abstract.cpp">
+      <Filter>Source Files\Dishes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dish_Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Burger_Abstract.h">
+      <Filter>Header Files\Dishes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dishes_Abstract.h">
+      <Filter>Header Files\Dishes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza_Abstract.h">
+      <Filter>Header Files\Dishes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza_Funghi.h">
+      <Filter>Header Files\Dishes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza_Salami.h">
+      <Filter>Header Files\Dishes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
