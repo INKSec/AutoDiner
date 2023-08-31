@@ -6,7 +6,6 @@
 
 class Pizza_Abstract : public Dishes_Abstract {
 
-protected:
     
 
 public:

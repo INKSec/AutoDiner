@@ -128,8 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Burger_Abstract.cpp" />
+    <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Dishes_Abstract.cpp" />
     <ClCompile Include="Dish_Factory.cpp" />
+    <ClCompile Include="HumanAbstract.cpp" />
     <ClCompile Include="Pizza_Abstract.cpp" />
     <ClCompile Include="Pizza_Funghi.cpp" />
     <ClCompile Include="Pizza_Salami.cpp" />
@@ -137,8 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Burger_Abstract.h" />
+    <ClInclude Include="Customer.h" />
     <ClInclude Include="Dishes_Abstract.h" />
     <ClInclude Include="Dish_Factory.h" />
+    <ClInclude Include="HumanAbstract.h" />
     <ClInclude Include="Pizza_Abstract.h" />
     <ClInclude Include="Pizza_Funghi.h" />
     <ClInclude Include="Pizza_Salami.h" />

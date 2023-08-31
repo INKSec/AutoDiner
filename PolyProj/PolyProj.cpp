@@ -11,10 +11,14 @@
 #include "Pizza_Salami.h"
 #include "Pizza_Funghi.h"
 
+#include "HumanAbstract.h"
+#include "Customer.h"
+
 int main()
 {
     
-    using AbsPizza = std::unique_ptr<Dishes_Abstract>;
+    //using AbsPizza = std::unique_ptr<Dishes_Abstract>;
+    using AbsPizza = std::unique_ptr<Dish_Factory>;
     std::vector<AbsPizza> list2;
 
     list2.emplace_back(std::make_unique<Pizza_Salami>());
@@ -22,10 +26,17 @@ int main()
     list2.emplace_back(std::make_unique<Pizza_Funghi>());
 
     for (auto& AbsPizza : list2) {
-        std::cout << AbsPizza->getDishname() << std::endl;
+        std::cout << AbsPizza->getDishName() << std::endl;
     }
-    
-    
+
+    Customer h("Manny");
+    std::cout << h.getName() << std::endl;
+
+    using AbsCustomer = std::unique_ptr<HumanAbstract>;
+    std::vector<AbsCustomer> list3;
+
+    list3.emplace_back(std::make_unique<Customer>("Herbert"));
+    std::cout << list3[0]->getName() << std::endl;
     
     
    
